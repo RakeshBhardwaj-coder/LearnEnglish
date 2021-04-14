@@ -1,0 +1,77 @@
+header{
+    background-color: rgba(50, 202, 62, 0.829);
+    text-align: center;
+    text-shadow: none;
+    color: rgb(255, 255, 255);
+    padding: 35px;
+}
+ul{
+    border-radius: 1em;
+    overflow:hidden;
+    background-color: #333;
+    list-style: none;
+}
+li{
+    float: left;
+}
+li a{
+    display: inline;
+    text-transform: capitalize;
+    overflow: hidden;
+    color:white;
+    padding:14px 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    border-radius: 1em;
+    background-color: #111;
+}
+a:active{
+    border-radius: 1em;
+    background-color: #aaa4a4;
+}
+.home{
+/* background-color: rgb(255, 255, 255); */
+text-emphasis: none;
+text-decoration: blue;
+text-indent: inherit;
+
+}
+/* section{
+    overflow: hidden;
+    display: block;
+    border-radius: 1em;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgba(103, 194, 61, 0.993);
+    
+
+} */
+.courses{
+    /* overflow: hidden; */
+    
+    border-radius: 1em;
+    text-transform: capitalize;
+   
+    text-align: center;
+    /* background-color: rgb(191, 191, 218); */
+
+}
+span{
+    padding: 10px 10px;
+    background-color: rgb(197, 197, 196);
+    border-radius: 1rem;
+}
+
+img{
+    display: inline;
+    overflow:hidden;
+    transition: transform .2s;
+}
+img:hover{
+    overflow: hidden;
+    display: inline;
+    transform: scale(1.2);
+}

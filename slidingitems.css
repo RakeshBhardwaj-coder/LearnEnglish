@@ -1,0 +1,76 @@
+
+*{
+/* all element seted with 0 padding and  0 margin */
+/* all item in border-box and centerd */
+padding: 0;
+margin:0;
+align-items: center;
+box-sizing: border-box;
+
+
+
+
+}
+body,html{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+   place-items: center;
+
+
+
+}
+.slidebox{
+    /* border:1px solid black; */
+    height: 40px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    float: left;
+    max-width: 300px;
+    max-height: 40px;
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+.play{
+    color: white;
+    padding: 15px;
+}
+.music{
+    padding: 15px;
+    color:white
+}
+.title{
+    color:white;
+    padding: 15px;
+
+
+}
+.microphone{
+    color:white;
+    padding: 15px;
+}
+button{
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-color: none;
+    transition: transform .3s; /* Animation */
+    
+}
+button:hover{
+    outline: none;
+    border: none;
+    border-color: none;
+    transform: scale(2);
+}
+button:active{
+    outline: none;
+    border-style:none ;
+    border: none;
+    border-color: none;
+    color:oldlace;
+}

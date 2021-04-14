@@ -1,0 +1,72 @@
+<!-- Mega project -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnEnglish | Home</title>
+    <script src="https://kit.fontawesome.com/1dc2b34901.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Learn English with Lyrics</h1></header>
+
+    <nav>
+       <ul>
+           <li><a class="active" href="Home.html">home</a></li>
+           <li><a href="#">upload</a></li>
+           <li><a href="#">section1</a></li> <li><a href="#">section2</a></li>
+       </ul>
+       
+       </nav>
+       <main>
+           <section>
+              <div class="courses"><h2><span>courses</span></h2></div> 
+              <a href="video.html" id="play-in-full-screen">
+               <img src="Videos/Thumbnils/Remember me.jpg" alt="not showing img" width="24%">
+             
+              </a>
+             <a href="">
+                 <img src="videos/Thumbnils/Beliver.jpg" id="_believer" onclick="play()" alt="sorry!!!" width="24%">
+             </a>
+               <a href="#"><img src="Videos/Thumbnils/Attention.jpg" alt="sorry!!!" width="24%"></a>
+               
+               <video src="Videos/Demons.mp4" id="_demons" onclick="demonsfunc()" width="24%" poster="Videos/Thumbnils/Demons.jpg" controls></video>
+               <video src="Videos/On my way.mp4" width="24%" poster="Videos/Thumbnils/On my way.jpg" controls></video>
+               <video src="Videos/Poco Loco.mp4" width="24%" poster="Videos/Thumbnils/Poco loco.jpg" controls></video>
+               <video src="Videos/Radioactive.mp4" width="24%" poster="Videos/Thumbnils/Radioactive.jpg" controls></video>
+               <video src="Videos/Shape of You.mp4" width="24%" poster="Videos/Thumbnils/Shape of you.jpg" controls></video>
+               <video src="Videos/Thunder.mp4" width="24%" poster="Videos/Thumbnils/Thunder.jpg" controls></video>
+               <video src="Videos/Bad Liar.mp4" width="24%" poster="Videos/Thumbnils/Bad Liar.jpg" controls></video>
+              
+              
+             
+           </section>
+
+           <div class="slidebox">
+            <div class="play">
+               <button><i class="fas fa-play"></i></button> 
+            </div>
+            
+        <div class="music"><button><i class="fas fa-music"></i></div>
+        </button>
+        <div class="title"><button><i class="fas fa-file-audio"></i></div></button>
+    
+        <div class="microphone"><button><i class="fas fa-microphone-alt"></i></div></button>
+    
+    </div>
+           <footer><center>@RakeshBhardwaj</center></footer>
+           <ui:include src="slidingitems.html" @import url(“slidingitems.css”); />
+           
+       </main>
+      
+       <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+       $(document).ready(function(){
+        $("h1").hover(function(){
+          $(this).css("background-color", "yellow");
+          }, function(){
+          $(this).css("background-color", "pink");
+        });
+      });</script>
+</body>
+</html>

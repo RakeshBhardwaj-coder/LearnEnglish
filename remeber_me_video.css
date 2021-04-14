@@ -1,0 +1,71 @@
+header{
+    background-color: rgba(50, 202, 62, 0.829);
+    text-align: center;
+    text-shadow: none;
+    color: rgb(255, 255, 255);
+    padding: 35px;
+}
+ul{
+    border-radius: 1em;
+    overflow:hidden;
+    background-color: #333;
+    list-style: none;
+}
+li{
+    float: left;
+}
+li a{
+    display: inline;
+    text-transform: capitalize;
+    overflow: hidden;
+    color:white;
+    padding:14px 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    border-radius: 1em;
+    background-color: #111;
+}
+a:active{
+    border-radius: 1em;
+    background-color: #aaa4a4;
+}
+.home{
+/* background-color: rgb(255, 255, 255); */
+text-emphasis: none;
+text-decoration: blue;
+text-indent: inherit;
+
+}hr{
+    width: 20%;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1.5px;
+}
+.video_remember_me{
+   
+    margin-top: 1.5em;
+    margin-left: 2em;
+
+}
+.video_remember_me video{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.remeber_me_lyrics{
+    text-shadow: none;
+    box-shadow: none !important;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    width: 65%;
+    height: 24em;
+    overflow: scroll;
+    /* border: 1px solid rgb(0, 0, 0); */
+    text-align: center;
+    text-shadow: darkslategrey;
+}
